@@ -101,3 +101,4 @@ deploy:
   type: git
   repository: https://github.com/ZhjDeitiny/ZhjDeitiny.github.io.git
   branch: master
+  

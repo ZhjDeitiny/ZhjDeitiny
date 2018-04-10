@@ -1,6 +1,7 @@
 ---
 title: 利用hexo搭建github静态博客
 date: 2018-4-10 11:01:59
+categories: PHP
 tags: mark1
 ---
 
