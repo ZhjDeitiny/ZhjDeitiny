@@ -1,5 +1,7 @@
 ---
 title: 利用hexo搭建github静态博客
+date: 2018-4-10 11:01:59
+tags: mark1
 ---
 
 Welcome to hexo, which is part of Dsetiny static blog, my blog address (http://zhjdeitiny.github.io/) want to here give you a different visual experience!<!--more-->
