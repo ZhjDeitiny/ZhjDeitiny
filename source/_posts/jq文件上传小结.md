@@ -6,7 +6,7 @@ categories: Web
 
 input file文件上传很多人都遇见过，就样式问题就有一大堆的问题，默认样式实在是不敢恭维，但在此今天不讨论样式的问题，只给一个大致的思路，一个div包括一个span和一个input，分别设置两个的定位，然后给input设置opacity为0，设置好宽度充满div，在设置好span的样式即可。
 
-众所周知，ajax不能传递文件，但是html新出的formdata可以。
+众所周知，ajax不能传递文件，但是html的formdata可以。
 
 ### html代码
 ``` 
@@ -28,9 +28,6 @@ input file文件上传很多人都遇见过，就样式问题就有一大堆的�
 >如果你的input file标签里面<strong style='color:red;'>使用了enctype="multipart/form-data"</strong>，JQ中这两个属性就要这样写<strong style='color:red;'>processData: false,  contentType: false</strong> 
 >如果如果你的input file标签里面<strong style='color:red'>没有使用 enctype="multipart/form-data"</strong>，JQ就要这样写<strong style='color:red;'>processData: false，contentType: "multipart/form-data"</strong>。
 
-[^_^]:
-   	commentted-out contents
-   	should be shift to right by four spaces (`>>`).
 ### js代码
 ``` 
 $(".leading-in").on("click",function(){
