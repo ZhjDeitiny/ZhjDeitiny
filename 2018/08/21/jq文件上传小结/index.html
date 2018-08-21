@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2018/4 | 张浩京的博客</title>
+  <title>基于jq的input file文件上传 | 张浩京的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="张浩京的博客">
-<meta property="og:url" content="http://yoursite.com/archives/2018/04/index.html">
+  <meta name="description" content="input file文件上传很多人都遇见过，就样式问题就有一大堆的问题，默认样式实在是不敢恭维，但在此今天不讨论样式的问题，只给一个大致的思路，一个div包括一个span和一个input，分别设置两个的定位，然后给input设置opacity为0，设置好宽度充满div，在设置好span的样式即可。 众所周知，ajax不能传递文件，但是html新出的formdata可以。 html代码1234567">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基于jq的input file文件上传">
+<meta property="og:url" content="http://yoursite.com/2018/08/21/jq文件上传小结/index.html">
 <meta property="og:site_name" content="张浩京的博客">
+<meta property="og:description" content="input file文件上传很多人都遇见过，就样式问题就有一大堆的问题，默认样式实在是不敢恭维，但在此今天不讨论样式的问题，只给一个大致的思路，一个div包括一个span和一个input，分别设置两个的定位，然后给input设置opacity为0，设置好宽度充满div，在设置好span的样式即可。 众所周知，ajax不能传递文件，但是html新出的formdata可以。 html代码1234567">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-08-21T03:18:15.888Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="张浩京的博客">
+<meta name="twitter:title" content="基于jq的input file文件上传">
+<meta name="twitter:description" content="input file文件上传很多人都遇见过，就样式问题就有一大堆的问题，默认样式实在是不敢恭维，但在此今天不讨论样式的问题，只给一个大致的思路，一个div包括一个span和一个input，分别设置两个的定位，然后给input设置opacity为0，设置好宽度充满div，在设置好span的样式即可。 众所周知，ajax不能传递文件，但是html新出的formdata可以。 html代码1234567">
   
     <link rel="alternative" href="/atom.xml" title="张浩京的博客" type="application/atom+xml">
   
@@ -148,86 +152,77 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-jq文件上传小结" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/12/2018-4-12（内涵段子被永久关停）/" class="archive-article-date">
-  	<time datetime="2018-04-12T02:07:52.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-12</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/12/2018-4-12（内涵段子被永久关停）/">时间记忆</a>
+    <h1 class="article-title" itemprop="name">
+      基于jq的input file文件上传
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/时间线//" class="article-tag-list-link color4">时间线</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/10/放大镜插件/" class="archive-article-date">
-  	<time datetime="2018-04-10T04:41:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-10</time>
+        
+        <a href="/2018/08/21/jq文件上传小结/" class="archive-article-date">
+  	<time datetime="2018-08-21T02:25:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-21</time>
 </a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>input file文件上传很多人都遇见过，就样式问题就有一大堆的问题，默认样式实在是不敢恭维，但在此今天不讨论样式的问题，只给一个大致的思路，一个div包括一个span和一个input，分别设置两个的定位，然后给input设置opacity为0，设置好宽度充满div，在设置好span的样式即可。</p>
+<p>众所周知，ajax不能传递文件，但是html新出的formdata可以。</p>
+<h3 id="html代码"><a href="#html代码" class="headerlink" title="html代码"></a>html代码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;p class=&quot;selected-box&quot;&gt;</span><br><span class="line">	&lt;form class=&quot;selected-wrap&quot; id=&quot;form1&quot; action=&quot;Upload&quot; method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;</span><br><span class="line">		&lt;input type=&quot;file&quot; class=&quot;selected-btn&quot; id =&quot;file&quot; name=&quot;file&quot;&gt;</span><br><span class="line">	&lt;/form&gt;</span><br><span class="line">	&lt;span class=&quot;selected-file&quot;&gt;选择本地&lt;/span&gt;</span><br><span class="line">&lt;/p&gt;</span><br><span class="line">&lt;div class=&quot;leading-in&quot;&gt;导入&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>我的代码是点击选择本地出发input file的按钮选择文件，然后点击导入出发ajax，中间还会判断是否已选择文件，没有选择的话，提示它，选择文件不对的话，也提示（我这边判断的是Execl文件，下方代码有）。其中需要注意的是必须要用form标签包裹，注意action、method和enctype属性，其中特别需要注意的是<strong style="color:red;">enctype</strong>属性必须为<strong style="color:red;">multipart/form-data</strong>，这样子才能将文件处理为一个二进制的文件，后台才能够进行接收。</p>
+<a id="more"></a>
+<p>&emsp;&emsp;PS：action这个属性其实也可以不填，它是放地址的，我们在ajax中会有提交地址的;<br>&emsp;&emsp;&emsp;&emsp;enctype这个属性其实也可以不在标签中添加，不过在js中的属性contentType就必须设置为multipart/form-data，</p>
+<ul>
+<li>简单来讲<blockquote>
+<p>如果你的input file标签里面<strong style="color:red;">使用了enctype=”multipart/form-data”</strong>，JQ中这两个属性就要这样写<strong style="color:red;">processData: false,  contentType: false</strong><br>如果如果你的input file标签里面<strong style="color:red">没有使用 enctype=”multipart/form-data”</strong>，JQ就要这样写<strong style="color:red;">processData: false，contentType: “multipart/form-data”</strong>。</p>
+</blockquote>
+</li>
+</ul>
+<p>[^_^]:<br>       commentted-out contents<br>       should be shift to right by four spaces (<code>&gt;&gt;</code>).</p>
+<h3 id="js代码"><a href="#js代码" class="headerlink" title="js代码"></a>js代码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;.leading-in&quot;).on(&quot;click&quot;,function()&#123;</span><br><span class="line">	var name = $(&quot;.selected-txt select option:selected&quot;).val();</span><br><span class="line">	var flag = $(&quot;.selected-btn&quot;).val();</span><br><span class="line">	var hzm =  flag.substr(flag.indexOf(&quot;.&quot;)+1);</span><br><span class="line">	if(flag == &quot;&quot;)&#123;</span><br><span class="line">		alert(&quot;请选择要上传的文件&quot;);</span><br><span class="line">	&#125;else if(hzm != &quot;xls&quot; &amp;&amp; hzm != &quot;xlsx&quot;)&#123;</span><br><span class="line">		alert(&quot;请选择Excel格式的文件&quot;);</span><br><span class="line">	&#125;else&#123;</span><br><span class="line">		var forData = new FormData();</span><br><span class="line">		forData.set(&quot;importfile&quot;, $(&quot;#file&quot;)[0].files[0]);</span><br><span class="line">		forData.set(&quot;systemName&quot;, name);</span><br><span class="line">		</span><br><span class="line">//		多个文件上传的情况，需要啊后台进行字段匹配如：上方的importfile</span><br><span class="line">//		var i;</span><br><span class="line">//		for (i = 0; i &lt; $(&apos;.select-file&apos;).files.length; i++) &#123;</span><br><span class="line">//</span><br><span class="line">//			forData.append(&apos;file[]&apos;, this.files[i]);</span><br><span class="line">//		&#125;</span><br><span class="line">		</span><br><span class="line">		$.ajax(&#123;</span><br><span class="line">			url: baselocation + &quot;/system/file/import&quot;,</span><br><span class="line">			type: &apos;post&apos;,</span><br><span class="line">			data: forData,</span><br><span class="line">			cache: false,</span><br><span class="line">			processData: false,</span><br><span class="line">			contentType: false,</span><br><span class="line">			success:function(json)&#123;</span><br><span class="line">				if(json.success == &quot;success&quot;)&#123;</span><br><span class="line">					alert(&quot;上传成功&quot;);</span><br><span class="line">				&#125;else&#123;</span><br><span class="line">					alert(&quot;上传失败&quot;);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;,error:function()&#123;</span><br><span class="line">				</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;);</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>js代码中我先判断获取文件的后缀名是不是我自己想要的类型文件，然后进行相应的提示，然后就新建一个FormData对象，然后把文件添加到里面，规则名一个要和后台确定好，如果还有其他的属性的，一并放到FormData的对象中就好，毕竟一个单独的属性，没有必要单独拿出来去提交，直接放到对象里面一起提交就好。</p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><ul>
+<li>1、 <strong style="color:red">cache</strong>：cache设为false可以禁止浏览器对该URL（以及对应的HTTP方法）的缓存。 jQuery通过为URL添加一个冗余参数来实现。</li>
+<li>2、 <strong style="color:red">contentType</strong>：jQuery中content-type默认值为application/x-www-form-urlencoded，因此传给data参数的对象会默认被转换为query string，我们不需要jQuery做这个转换，否则会破坏掉multipart/form-data的编码格式。 因此设置contentType: false来禁止jQuery的转换操作。</li>
+<li>3、 <strong style="color:red">processData</strong>：jQuery会将data对象转换为字符串来发送HTTP请求，默认情况下会用 application/x-www-form-urlencoded编码来进行转换。 我们设置contentType: false后该转换会失败，因此设置processData: false来禁止该转换过程。我们给的data就是已经用FormData编码好的数据，不需要jQuery进行字符串转换。(它与enctype的关系上方已经阐述)</li>
+</ul>
+<p><br>如果有多文件的情况，代码中也有注释，前提是一定要和后台定好参数规则，建议比如说：file[文件索引]这样的规则，后台拿到数据之后出掉一些定义好的其他属性，根据length，一个一个去取好；</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/10/放大镜插件/">基于js原生的放大镜插件</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">插件</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -240,93 +235,104 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/08/21/jq文件上传小结/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/10/洛神赋/" class="archive-article-date">
-  	<time datetime="2018-04-10T03:02:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-10</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2018/04/12/2018-4-12（内涵段子被永久关停）/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">时间记忆</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/10/洛神赋/">洛神赋</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">古诗文</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/随笔//" class="article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
+        
+        
+    </div>
+</aside>
 
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/09/hello-world/" class="archive-article-date">
-  	<time datetime="2018-04-09T06:23:00.159Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-09</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/09/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -349,8 +355,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
